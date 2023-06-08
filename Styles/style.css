@@ -1,0 +1,231 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+/* font-family: 'Della Respira', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #F3DEBA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    width: 25%;
+
+}
+
+nav {
+    width: 50%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: black;
+    font-family: 'Della Respira', serif;
+    display: flex;
+    border: 1px solid orange;
+    justify-content: space-around;
+    margin-right: 101px;
+
+}
+
+
+/* pagina de inicio */
+.titulos {
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.portada {
+    height: 500px;
+    background-image: url(../imagenes/diseño1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada h1 {
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    border: 0.5px solid orange;
+    border-radius: 55%;
+    background-color: #FEE8B0;
+    padding: 2%;
+    color: orange;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main {
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+p {
+    font-family: 'Della Respira', serif;
+    color: black;
+}
+
+label {
+    font-family: 'Della Respira', serif;
+    color: black;
+
+}
+
+.ultimos-proyectos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+}
+
+.ultimos-proyectos-img {
+    border: 1px solid green;
+    width: 25%;
+    height: 25%;
+
+}
+
+.ultimos-proyectos img {
+    border: 1px solid green;
+
+    width: 100%;
+}
+
+/* contacto */
+
+.contacto img {
+    width: 7%;
+    height: 7%;
+}
+
+.contacto div {
+    flex-direction: row;
+    border: 1px solid cadetblue;
+
+}
+
+.contacto {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+}
+
+.contacto-cliente {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+
+/* sobre nosotros  */
+
+
+.tomas {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10%;
+
+}
+
+.tomas p {
+    width: 50%;
+    border: 1px solid orange;
+    border-style: solid;
+    background-color: #F3DEBA;
+}
+
+.tomas img {
+    width: 25%;
+    border: 1px solid orange;
+    border-style: solid;
+    border-radius: 15%;
+
+}
+
+.ailen {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10%;
+
+}
+
+.ailen p {
+    width: 50%;
+    border: 1px solid orange;
+    border-style: solid;
+    background-color: #F3DEBA;
+}
+
+.ailen img {
+    width: 25%;
+    border: 1px solid orange;
+    border-style: solid;
+    border-radius: 15%;
+
+}
+
+/* mision */
+
+.DivpadreFlex p {
+    text-align: center;
+}
+
+.cierre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.DivpadreFlex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* footers */
+footer {
+    background-color: #F3DEBA;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
