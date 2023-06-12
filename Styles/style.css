@@ -8,28 +8,27 @@
     padding: 0;
 }
 
-/* Header */
-header {
+ /* Header */
+ header {
     position: sticky;
     top: 0px;
     background-color: #F3DEBA;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-}
+    z-index: 10;
+} 
 
 header img {
     width: 25%;
 
 }
-
+/* 
 nav {
     width: 50%;
-}
+} */
 
-header ul {
+/* header ul {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -40,11 +39,33 @@ header ul {
     justify-content: space-around;
     margin-right: 101px;
 
-}
+} 
 
 
 /* pagina de inicio */
-.titulos {
+.titulos h1{
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.titulos h2{
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+.titulos h3{
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+.titulos p{
     font-family: 'Della Respira', serif;
     text-align: center;
     color: black;
@@ -58,6 +79,8 @@ header ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .portada h1 {
     font-family: 'Della Respira', serif;
@@ -212,6 +235,16 @@ label {
     display: flex;
     flex-direction: row;
 
+}
+
+
+/* Proyectos */
+.proyecto1, .proyecto2, .proyecto3, .proyecto4 {
+    text-align: center;
+    margin: 10px 0px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    border-style: dashed;
 }
 
 
