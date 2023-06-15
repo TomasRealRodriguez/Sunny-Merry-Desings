@@ -139,7 +139,7 @@ label {
     flex-direction: row;
 }
 
-.contacto-cliente {
+.contacto-usuario{
     display: flex;
     align-items: start;
     justify-content: left;
@@ -150,24 +150,21 @@ label {
 
 
 .tomas {
-    display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 10%;
 
 }
 
 .tomas p {
-    width: 50%;
     border: 1px solid orange;
     border-style: solid;
     background-color: #F3DEBA;
 }
 
 .tomas img {
-    width: 25%;
+    width: 75%;
     border: 1px solid orange;
     border-style: solid;
     border-radius: 15%;
@@ -175,24 +172,21 @@ label {
 }
 
 .ailen {
-    display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 10%;
 
 }
 
 .ailen p {
-    width: 50%;
     border: 1px solid orange;
     border-style: solid;
     background-color: #F3DEBA;
 }
 
 .ailen img {
-    width: 25%;
+    width: 75%;
     border: 1px solid orange;
     border-style: solid;
     border-radius: 15%;
@@ -214,7 +208,6 @@ label {
 }
 
 
-
 .DivpadreFlex {
     display: flex;
     flex-direction: row;
@@ -225,11 +218,21 @@ label {
 /* Proyectos */
 .proyecto1, .proyecto2, .proyecto3, .proyecto4 {
     text-align: center;
-    margin: 10px 0px;
     border: 1px solid orange;
-    border-radius: 5px;
     border-style: dashed;
+    padding: 10px;
 }
+
+.card {
+    background-color: #F3DEBA;
+    text-align: center;
+    border: 1px solid beige;
+    border-style: dashed;
+    padding: 10px;
+    
+}
+
+
 
 
 /* footers */
