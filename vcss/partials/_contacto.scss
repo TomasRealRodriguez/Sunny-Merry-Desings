@@ -1,0 +1,18 @@
+/* Contacto */
+.contacto {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+
+    div {
+        flex-direction: row;
+    }
+
+    img {
+        width: 7%;
+        height: 7%;
+
+    }
+}

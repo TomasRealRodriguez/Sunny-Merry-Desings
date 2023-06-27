@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/*Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #F3DEBA;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+header img {
+  width: 75px;
+}
+
+.nav-link {
+  font-family: "Della Respira", serif;
+}
+
+/* footers */
+footer {
+  background-color: #F3DEBA;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+/* Body */
+main {
+  /* background-image: url(../imagenes/fondo.jpg); */
+  background-color: #ffefe3;
+  background-size: cover;
+}
+
+/* Variables Globales*/
+p {
+  font-family: "Della Respira", serif;
+  color: black;
+}
+
+.titulos h1 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos h2 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos h3 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos p {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+/* Portada */
+.portada {
+  height: 500px;
+  background-image: url(../imagenes/diseño1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portada h1 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  border: 0.5px solid orange;
+  border-radius: 55%;
+  background-color: #FEE8B0;
+  padding: 2%;
+  color: orange;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Contacto */
+.contacto {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: row;
+}
+.contacto div {
+  flex-direction: row;
+}
+.contacto img {
+  width: 7%;
+  height: 7%;
+}
+
+/* Nosotros */
+.tomas, .ailen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.tomas p, .ailen p {
+  border: 1px solid orange;
+  border-style: solid;
+  background-color: #F3DEBA;
+}
+.tomas img, .ailen img {
+  width: 75%;
+  border: 1px solid orange;
+  border-style: solid;
+  border-radius: 15%;
+}
+
+/* mision */
+.DivpadreFlex p {
+  text-align: center;
+}
+
+.cierre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cierre h2 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+.DivpadreFlex img {
+  width: 450px;
+}
+
+.DivpadreFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Proyectos*/
+.proyectos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.proyectos h5 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.proyectos .card {
+  background-color: #F3DEBA;
+  text-align: center;
+  border: 1px solid beige;
+  border-style: dashed;
+  padding: 10px;
+}
+
+/* Titulos */
+.titulos h1 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos h2 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos h3 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.titulos p {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+/* Portada */
+.portada {
+  height: 500px;
+  background-image: url(../imagenes/diseño1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portada h1 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  border: 0.5px solid orange;
+  border-radius: 55%;
+  background-color: #FEE8B0;
+  padding: 2%;
+  color: orange;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Mision */
+.DivpadreFlex {
+  display: flex;
+  flex-direction: row;
+}
+.DivpadreFlex .img {
+  width: 450px;
+}
+
+/* Contacto */
+.contacto {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: row;
+}
+.contacto .div {
+  flex-direction: row;
+}
+.contacto .img {
+  width: 7%;
+  height: 7%;
+}
+
+/* Nosotros */
+.tomas, .ailen {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.tomas p, .ailen p {
+  border: 1px solid orange;
+  border-style: solid;
+  background-color: #F3DEBA;
+}
+.tomas img, .ailen img {
+  width: 75%;
+  border: 1px solid orange;
+  border-style: solid;
+  border-radius: 15%;
+}
+
+.ailen {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.ailen p {
+  border: 1px solid orange;
+  border-style: solid;
+  background-color: #F3DEBA;
+}
+.ailen img {
+  width: 75%;
+  border: 1px solid orange;
+  border-style: solid;
+  border-radius: 15%;
+}
+
+/*# sourceMappingURL=estilossass.css.map */

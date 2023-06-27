@@ -1,0 +1,22 @@
+/* Nosotros */
+.tomas {
+    @include flex ( row,space-between,center);
+    text-align: center;
+
+    p {
+        border: 1px solid orange;
+        border-style: solid;
+        background-color: #F3DEBA;
+    }
+
+    img {
+        width: 75%;
+        border: 1px solid orange;
+        border-style: solid;
+        border-radius: 15%;
+    }
+}
+
+.ailen {
+    @extend .tomas
+}

@@ -1,0 +1,59 @@
+.titulos {
+
+    h1 {
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        color: black;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    h2 {
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        color: black;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        color: black;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        color: black;
+        font-style: italic;
+    }
+
+}
+
+/* Portada */
+.portada {
+    height: 500px;
+    background-image: url(../imagenes/diseño1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-family: 'Della Respira', serif;
+        text-align: center;
+        border: 0.5px solid orange;
+        border-radius: 55%;
+        background-color: #FEE8B0;
+        padding: 2%;
+        color: orange;
+        font-style: italic;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}

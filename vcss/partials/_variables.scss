@@ -1,0 +1,11 @@
+/*Variables*/
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+$FondoCrema: #F3DEBA;
+$Tipografia: 'Della Respira', serif;
+
+@mixin flex ($direccion, $justify, $alinear) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $alinear;
+    }

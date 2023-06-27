@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ /* Header */
+ header {
+    position: sticky;
+    top: 0px;
+    background-color: #F3DEBA;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+} 
+
+header img {
+    width:75px;
+}
+
+.nav-link {
+    font-family: $Tipografia;    
+}
+/* footers */
+footer {
+    background-color: #F3DEBA;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+/* Body */
+main {
+    /* background-image: url(../imagenes/fondo.jpg); */
+    background-color: #ffefe3;
+    background-size: cover;
+} 
+
+/* Variables Globales*/
+
+p {
+    font-family: $Tipografia;
+    color: black;
+}
