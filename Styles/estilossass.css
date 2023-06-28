@@ -119,6 +119,16 @@ p {
   width: 7%;
   height: 7%;
 }
+.contacto h3 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+}
+.contacto .mb-3 {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: black;
+}
 
 /* Nosotros */
 .tomas, .ailen {
