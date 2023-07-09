@@ -22,15 +22,19 @@ header img {
 .nav-link {
     font-family: $Tipografia;    
 }
+
+.nav-link:hover { 
+    background-color: $FondoNaranja;
+    border-radius: 10px;
+    transition: 1s;
+
+}
 /* footers */
 footer {
     background-color: #F3DEBA;
     display: flex;
     justify-content: space-around;
-}
-
-footer img {
-    width: 100px;
+    padding: 10px;
 }
 
 footer ul {

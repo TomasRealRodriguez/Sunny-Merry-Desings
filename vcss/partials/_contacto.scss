@@ -6,8 +6,13 @@
     align-items: start;
     flex-direction: row;
 
+    .row{
+        padding-left: 50px;
+    }
+
     div {
         flex-direction: row;
+        
     }
 
     img {
@@ -24,5 +29,14 @@
         font-family: 'Della Respira', serif;
         text-align: center;
         color: black;
+    }
+    button { 
+        background-color: lightsalmon;
+        border-color: $FondoCrema;
+    }
+    button:hover {
+        background-color: orange;
+        border-color: $FondoCrema;
+
     }
 }
