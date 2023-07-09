@@ -166,8 +166,6 @@ p {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .tomas p, .ailen p {
   border: 1px solid orange;
@@ -234,6 +232,29 @@ p {
   border-style: dashed;
   padding: 10px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.41);
+}
+
+.perdido {
+  height: 800px;
+  background-image: url(../../imagenes/404.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.perdido .titulos h1 {
+  border: 0.5px solid orange;
+  background-color: #F3DEBA;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.41);
+  text-decoration: none;
 }
 
 /* Titulos */
